@@ -1,23 +1,37 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <title>CSS/HTML Workshop with Privateaser</title>
-  </head>
-  <body>
-    <div id="bar">
-      <input class="js-name" type="text" placeholder="Bar name"/>
-      <input class="js-price-by-hour" type="number" placeholder="Price by hour"/>
-      <input class="js-price-by-person" type="number" placeholder="Price by person"/>
-    </div>
-    <div id="booker">
-      <input class="js-name" type="text" placeholder="Booker name"/>
-      <input class="js-time" type="number" placeholder="Time in h"/>
-      <input class="js-persons" type="number" placeholder="Persons"/>
-      <input class="js-option" type="checkbox" placeholder="Deductible option"/>
-    </div>
-    <button id="compute">Compute</button>
-    <div id="actors"></div>
-    <script src="privateaser.js"></script>
-    <script src="index.js"></script>
-  </body>
+<head>
+  <title>Payment Computing</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+<body background="585a1da7c9419.jpg">
+<h1>Privateaser, Your event specialist</h1>
+<hr />
+<div id="bar">
+  <h2>Bar Info</h2>
+  <a href="https://www.privateaser.com" title="main web">Find Bars</a><br />
+  <input class="js-name" type="text" placeholder="Bar name"/><br />
+  <input class="js-price-by-hour" type="number" placeholder="Price by hour"/><br />
+  <input class="js-price-by-person" type="number" placeholder="Price by person"/><br/>
+</div>
+<hr />
+<div id="booker">
+  <h2>Yours Info</h2>
+  <input class="js-name" type="text" placeholder="Booker name"/><br />
+  <input class="js-time" type="number" placeholder="Time in h"/><br />
+  <input class="js-persons" type="number" placeholder="Persons"/><br />
+  <p><strong>Large Event? Discount!</strong></p>
+  <p>Discount 10%, 30%, 50% for people more than 10, 20, 30 !</p>
+  <hr />
+  <input class="js-option" type="checkbox" placeholder="Deductible option"/> Check here for Deductible Reduction (1 EURO per person)
+</div>
+
+<button id="compute">Compute</button><br />
+<a href="mailto:ge.qiu@edu.devinci.fr"?subject="Payment Computing Problem">Any Problem? Email US!</a>
+<div id="actors"></div>
+<script src="privateaser.js"></script>
+<script src="index.js"></script>
+
+
+</body>
 </html>
